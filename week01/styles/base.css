@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Sansita", sans-serif;
+}
+
+/* mobile **************************/
+header {
+	background-color: steelblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+img {
+    padding: 1rem;
+}
+
+header span {
+    font-size: 2.5rem;
+}
+
+header,
+main {
+	margin: 0 auto;
+}
+
+h2 {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+section {
+    border: 1px solid #36454f;
+    text-align: left;
+    margin: 1rem;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+	font-size: 2rem;
+}
+
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
+
+.active {
+	color: yellow;
+}
+.parent ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 1rem;
+}
+
+footer p {
+    padding: 10px;
+}

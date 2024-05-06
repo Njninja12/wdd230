@@ -104,19 +104,30 @@ footer p {
 	text-align: right;
 	padding: .25rem 2vw;
 }
+@media only screen and (max-width: 640px) {
+	
+	ul.menuLinks li a {
+		display: block;
+	}
 
-ul.menuLinks li a {
-	display: block;
+	ul.menuLinks {
+		display: none;
+	}
+
+	ul.menuLinks.open {
+		display: block;
+	}
+
+	#myButton.open::before {
+		content: "X";
+	}
 }
 
-ul.menuLinks {
-	display: none;
-}
-
-ul.menuLinks.open {
-	display: block;
-}
-
-#myButton.open::before {
-	content: "X";
+#mode {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 3rem;
+	cursor: pointer;
+	font-size: 2rem;
 }

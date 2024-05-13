@@ -34,7 +34,16 @@
     </nav>
     <main>
         <h1>WDD 230: Web Frontend Development</h1>
-        <picture></picture>
+        <div class="hero-image-container">
+            <picture>
+                <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+                <source media="(max-width: 960px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-large.webp" alt="Star Valley Temple" width="1500" height="750" loading="lazy">
+            </picture>
+            <div class="overlay-text">
+                <h2>Star Valley Temple</h2>
+            </div>
+        </div>
         <div class="parent">
             <section class="card">
                 <h2>Learning Activities</h2>
@@ -49,7 +58,7 @@
             </section>
             <section class="card">
                 <h2>Information</h2>
-                <p></p>
+                <p>This page has been visited <span id="visitCount">0</span> times.</p>
             </section>
         </div>
     </main>
@@ -61,6 +70,7 @@
         
         </p>
     </footer>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d30533.729294876277!2d-110.93214248895295!3d42.7191623629918!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1715568768823!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <script src="scripts/getDates.js"></script>
 </body>
 </html>

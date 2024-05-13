@@ -131,3 +131,23 @@ footer p {
 	cursor: pointer;
 	font-size: 2rem;
 }
+
+.hero-image-container {
+    position: relative;
+    max-width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.overlay-text h2 {
+    margin: 0;
+}

@@ -28,3 +28,21 @@ modeButton.addEventListener("click", () => {
         modeButton.textContent = "🕶️";
     }
 });
+
+function updateVisitCount() {
+    // Check if 'visitCount' is stored in localStorage
+    if (localStorage.getItem('visitCount')) {
+        // Retrieve the current count from localStorage
+        let count = parseInt(localStorage.getItem('visitCount'));
+        // Update the display on the page
+        document.getElementById('visitCount').textContent = count;
+        // Increment the count and save it back to localStorage
+        localStorage.setItem('visitCount', count + 1);
+    } else {
+        // If 'visitCount' is not in localStorage (first visit), initialize it to 1
+        localStorage.setItem('visitCount', 1);
+        document.getElementById('visitCount').textContent = 1;
+    }
+}
+
+document.addEventListener('DOMContentLoaded', updateVisitCount);

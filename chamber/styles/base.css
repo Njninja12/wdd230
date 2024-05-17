@@ -6,6 +6,26 @@ body {
     color: #333;
 }
 
+nav {
+	background-color: #36454f;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration:overline;
+}
+
 a {
     color: #007bff; /* Link color */
     text-decoration: none;

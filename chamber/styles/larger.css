@@ -6,4 +6,11 @@
         transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
     }
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
 }

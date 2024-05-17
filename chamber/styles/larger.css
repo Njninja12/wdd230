@@ -1,0 +1,9 @@
+/* Add hover effect to images in desktop view only */
+@media (min-width: 768px) {
+    /* Define the hover effect */
+    .image-container figure:hover {
+        transform: scale(1.1); /* Scale up the image by 10% on hover */
+        transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+    }
+}

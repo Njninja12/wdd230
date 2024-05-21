@@ -51,6 +51,10 @@ h1 {
 	font-size: 2rem;
 }
 
+h1 p {
+	margin: auto;
+	text-align: center;
+}
 nav {
 	background-color: #36454f;
 	margin: 0 auto;

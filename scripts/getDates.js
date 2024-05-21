@@ -46,3 +46,21 @@ function updateVisitCount() {
 }
 
 document.addEventListener('DOMContentLoaded', updateVisitCount);
+
+function checkPassword(input) {
+    var password = document.getElementById('password');
+    var confirmPassword = document.getElementById('confirmPassword');
+    if (password.value !== confirmPassword.value) {
+        confirmPassword.setCustomValidity("Passwords don't match");
+        password.setCustomValidity("Passwords don't match");
+    } else {
+        confirmPassword.setCustomValidity('');
+        password.setCustomValidity('');
+    }
+}
+
+// JavaScript for updating range value display
+function updateRating(input) {
+    document.getElementById('ratingDisplay').textContent = input.value;
+}
+

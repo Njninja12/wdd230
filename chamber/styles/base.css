@@ -62,7 +62,63 @@ nav ul li:last-child {
 
 main {
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.form-section {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.benefits-section {
+    flex: 1;
+    min-width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .form-section,
+    .benefits-section {
+        margin-right: 0;
+    }
+}
+
 
 .hero img {
     width: 100%;

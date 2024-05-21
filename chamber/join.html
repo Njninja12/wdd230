@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Chamber of Commerce Home Page">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:img" content="https://www.maricopa.gov/ImageRepository/Document?documentID=53570">
+    <title>Maricopa Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="#">Directory</a>
+        <a href="#">Join</a>
+    </nav>
+    <main>
+        <section class="form-section">
+            <form action="thankyou.html" method="get">
+                <label for="first-name">
+                    First Name:
+                    <input type="text" id="first-name" name="first-name" required>
+                </label>
+                <label for="last-name">
+                    Last Name:
+                    <input type="text" id="last-name" name="last-name" required>
+                </label>
+                <label for="title">
+                    Title/Position:
+                    <input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" title="Only alpha characters, hyphens, and spaces with a minimum of seven characters" required>
+                </label>
+                <label for="email">
+                    Email Address:
+                    <input type="email" id="email" name="email" placeholder="example@domain.com" required>
+                </label>
+                <label for="phone">
+                    Mobile Phone Number:
+                    <input type="tel" id="phone" name="phone" required>
+                </label>
+                <label for="organization">
+                    Organization Name:
+                    <input type="text" id="organization" name="organization" required>
+                </label>
+                <label for="membership-level">
+                    Membership Level:
+                    <select id="membership-level" name="membership-level" required>
+                        <option value="np">NP Membership (no fee)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label for="description">
+                    Business/Organization Description:
+                    <textarea id="description" name="description"></textarea>
+                </label>
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section class="benefits-section">
+            <h2>Membership Benefits</h2>
+            <ul>
+                <li>NP Membership: Access to basic resources</li>
+                <li>Bronze Membership: Special events access, training</li>
+                <li>Silver Membership: Advertising, event discounts</li>
+                <li>Gold Membership: Premium support, spotlight positions</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <p>Contact: info@yourchamberwebsite.com</p>
+        </div>
+        <div class="development-info">
+            <p>Developed by: Your Full Name</p>
+            <p>WDD 230 Project</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

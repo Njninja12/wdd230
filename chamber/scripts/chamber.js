@@ -32,3 +32,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("LocalStorage not supported.");
     }
 });
+
+
+document.getElementById('timestamp').value = new Date().toISOString();

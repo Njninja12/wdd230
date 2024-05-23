@@ -9,7 +9,7 @@ body {
     background-color: #f0f0f0;
   }
   
-  .cards {
+  #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;

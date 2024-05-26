@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Salt River Project",
+        "address": "1500 N Mill Ave, Tempe, AZ",
+        "phone": "602-236-8888",
+        "website": "https://www.srpnet.com",
+        "image": "SRP-logo.jpg",
+        "membership_level": "Gold",
+        "description": "Electric Utilities Company"
+    },
+    {
+        "name": "Bashas",
+        "address": "8035 E Indian School Rd, Scottsdale, AZ",
+        "phone": "800-755-7292",
+        "website": "https://www.bashas.com",
+        "image": "bashas-logo.png",
+        "membership_level": "Silver",
+        "description": "Grocery Store Chain"
+    },
+    {
+        "name": "Circle K",
+        "address": "1154 W Rio Salado Pkwy, Mesa, AZ",
+        "phone": "480-649-8769",
+        "website": "https://www.circlek.com",
+        "image": "circlek-logo.png",
+        "membership_level": "Silver",
+        "description": "Gas Station"
+    },
+    {
+        "name": "Best Western",
+        "address": "950 N Arizona Ave, Chandler, AZ",
+        "phone": "800-528-1238",
+        "website": "https://www.bestwestern.com",
+        "image": "best-western-logo.png",
+        "membership_level": "Copper",
+        "description": "Hotel and Inn"
+    },
+    {
+        "name": "Drivetime",
+        "address": "333 S Alma School Rd, Mesa, AZ",
+        "phone": "480-833-0600",
+        "website": "https://www.drivetime.com",
+        "image": "drivetime-logo.jpeg",
+        "membership_level": "Gold",
+        "description": "Auto dealer and Rentals"
+    },
+    {
+        "name": "Harkins Theater",
+        "address": "2000 E Rio Salado Pkwy #1160, Tempe, AZ",
+        "phone": "480-557-0027",
+        "website": "https://www.harkins.com",
+        "image": "harkins-logo.jpg",
+        "membership_level": "Silver",
+        "description": "Movie Theater"
+    },
+    {
+        "name": "Shamrock Farms",
+        "address": "2228 N Black Cyn Hwy, Phoenix, AZ",
+        "phone": "480-988-1634",
+        "website": "https://www.shamrockfarms.net",
+        "image": "shamrock-logo.png",
+        "membership_level": "Gold",
+        "description": "Dairy Farm"
+    }
+]

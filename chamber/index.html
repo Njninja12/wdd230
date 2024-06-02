@@ -10,11 +10,13 @@
     <title>Maricopa Chamber of Commerce</title>
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.ico"> 
 </head>
 <body>
     <header>
-        
+        <h1>Maricopa Chamber of Commerce</h1>
+        <div id="visitMessage"></div>
+        <div id="lastModified"></div>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -24,23 +26,14 @@
     </nav>
     <main>
         <section class="hero">
-            <h1 class="hero-text">Maricopa Chamber of Commerce</h1>
-            <img src="hero-image.jpg" alt="Chamber of Commerce">
+            <h1 class="hero-text">Welcome to Maricopa Chamber of Commerce</h1>
+            <img src="images/hero-img.jpg" alt="Hero Image">
         </section>
 
         <section class="join">
             <h2>Join the Chamber of Commerce</h2>
             <p>Grow your business with us. Become a member today!</p>
-            <a href="#" class="cta-button">Join Now</a>
-        </section>
-
-        <section class="events">
-            <h2>Upcoming Events</h2>
-            <ul>
-                <li>Event 1</li>
-                <li>Event 2</li>
-                <li>Event 3</li>
-            </ul>
+            <a href="join.html" class="cta-button">Join Now</a>
         </section>
 
         <section class="weather">
@@ -51,15 +44,7 @@
         </section>
 
         <section class="spotlights">
-            <h2>Member Spotlights</h2>
-            <div class="spotlight">
-                <h3>Company A</h3>
-                <p>Description of Company A</p>
-            </div>
-            <div class="spotlight">
-                <h3>Company B</h3>
-                <p>Description of Company B</p>
-            </div>
+    
         </section>
     </main>
     <footer>
@@ -69,9 +54,13 @@
         <div class="development-info">
             <p>Developed by: Your Full Name</p>
             <p>WDD 230 Project</p>
-            <p>Last Modified: <span id="lastModified"></span></p>
+            <p>&copy; 2024 Maricopa Chamber of Commerce</p>
         </div>
     </footer>
+
+    <input type="hidden" id="timestamp">
+
+
     <script src="scripts/chamber.js"></script>
 </body>
 </html>

@@ -147,7 +147,7 @@ input[type="submit"]:hover {
 
 .join .cta-button {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #36454f;
     color: #fff;
     padding: 10px 20px;
     border-radius: 4px;
@@ -156,7 +156,7 @@ input[type="submit"]:hover {
 }
 
 .join .cta-button:hover {
-    background-color: #45a049;
+    background-color: #4b6b80;
 }
 
 .events {
